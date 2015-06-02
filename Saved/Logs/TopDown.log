@@ -1,0 +1,673 @@
+﻿Log file open, 06/02/15 11:45:53
+LogInit:Display: Running engine for game: TopDown
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.02-02.45.53:149][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.06.02-02.45.53:181][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.02-02.45.53:191][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.02-02.45.53:200][  0]LogInit: Object subsystem initialized
+[2015.06.02-02.45.53:203][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.02-02.45.53:203][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.02-02.45.53:208][  0]LogInit: Computer: WINBOOK
+[2015.06.02-02.45.53:208][  0]LogInit: User: winbookair
+[2015.06.02-02.45.53:208][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.02-02.45.53:208][  0]LogInit: High frequency timer resolution =2.246096 MHz
+[2015.06.02-02.45.53:208][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.06.02-02.45.53:208][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.02-02.45.53:208][  0]LogMemory: Process Physical Memory: 45.82 MB used, 45.82 MB peak
+[2015.06.02-02.45.53:208][  0]LogMemory: Process Virtual Memory: 24.35 MB used, 24.36 MB peak
+[2015.06.02-02.45.53:208][  0]LogMemory: Physical Memory: 2371.68 MB used, 8132.54 MB total
+[2015.06.02-02.45.53:208][  0]LogMemory: Virtual Memory: 288.09 MB used, 134217728.00 MB total
+[2015.06.02-02.45.53:221][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5000 (Feature Level 11_0)
+[2015.06.02-02.45.53:221][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.06.02-02.45.53:222][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.02-02.45.53:222][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.02-02.45.53:222][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.02-02.45.53:224][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.06.02-02.45.53:229][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.02-02.45.53:271][  0]LogTextLocalizationManager: The requested culture ('ja_JP') has no localization data; parent culture's ('ja') localization data will be used.
+[2015.06.02-02.45.53:321][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-29098895) String: (現行レベルをディスクに保存)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/ja/Engine.locres) Hash: (-1280300587) String: (選択データをvlogファイルに保存)
+[2015.06.02-02.45.53:321][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-630476809) String: ({0} にインポート...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (1271782899) String: (このフォルダへファイルからアセットをインポート)
+[2015.06.02-02.45.53:390][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.02-02.45.56:483][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-02.45.57:928][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-02.45.57:992][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.02-02.45.58:047][  0]LogDerivedDataCache: Loaded boot cache 0.06s 40MB C:/Users/winbookair/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.02-02.45.58:047][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/winbookair/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.02-02.45.58:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.02-02.45.58:047][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.02-02.45.58:163][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.02-02.45.58:176][  0]LogDerivedDataCache: Using Local data cache path C:/Users/winbookair/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.02-02.45.58:449][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.02-02.45.58:449][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.02-02.45.58:859][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.02-02.45.58:998][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.02-02.45.59:912][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.02-02.46.00:126][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.06.02-02.46.00:126][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.06.02-02.46.00:126][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.06.02-02.46.00:126][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.02-02.46.00:126][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.02-02.46.00:136][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.06.02-02.46.00:315][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.02-02.46.00:315][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.06.02-02.46.00:395][  0]LogEngine: Initializing Engine...
+[2015.06.02-02.46.02:530][  0]LogInit: XAudio2 using 'スピーカー (Cirrus Logic CS4208 (AB 114))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.02-02.46.02:540][  0]LogInit: FAudioDevice initialized.
+[2015.06.02-02.46.02:572][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.02-02.46.02:602][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/winbookair/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.02-02.46.02:606][  0]LogInit: Texture streaming: Enabled
+[2015.06.02-02.46.02:689][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.02-02.46.02:689][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.02-02.46.02:690][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.02-02.46.02:690][  0]LogAnalytics: SetUserId 3881b95849e95f17b18c90adbac0d968|02007cb1cf1f425fb9ecab522cecd268|c119a941-bd73-47c4-bd9c-99b74fd6903e
+[2015.06.02-02.46.02:690][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.02-02.46.02:711][  0]LogInit: Transaction tracking system initialized
+[2015.06.02-02.46.02:873][  0]BlueprintLog: New page: エディタの読み込み
+[2015.06.02-02.46.02:905][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.06.02-02.46.02:905][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.02-02.46.04:555][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-02.46.06:007][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.02-02.46.12:991][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.02-02.46.12:991][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.02-02.46.13:002][  0]LogConsoleResponse:Display: 
+[2015.06.02-02.46.13:145][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.02-02.46.13:287][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.06.02-02.46.13:290][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: パスは '/' で開始しなくてはいけません
+[2015.06.02-02.46.13:290][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: パスは '/' で開始しなくてはいけません
+[2015.06.02-02.46.13:291][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.06.02-02.46.14:601][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.06.02-02.46.14:605][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.06.02-02.46.14:608][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.06.02-02.46.14:611][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.06.02-02.46.14:615][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.06.02-02.46.14:617][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.06.02-02.46.14:621][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.06.02-02.46.14:624][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.06.02-02.46.14:628][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.06.02-02.46.14:631][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.06.02-02.46.14:634][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.06.02-02.46.14:638][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.06.02-02.46.14:641][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.06.02-02.46.14:645][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Collapse01.uasset
+[2015.06.02-02.46.14:648][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Collapse02.uasset
+[2015.06.02-02.46.14:652][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.06.02-02.46.14:655][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Explosion01.uasset
+[2015.06.02-02.46.14:658][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Explosion02.uasset
+[2015.06.02-02.46.14:662][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.06.02-02.46.14:664][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Fire01.uasset
+[2015.06.02-02.46.14:668][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.06.02-02.46.14:672][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.06.02-02.46.14:675][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.06.02-02.46.14:678][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Light01.uasset
+[2015.06.02-02.46.14:682][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.06.02-02.46.14:685][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Light02.uasset
+[2015.06.02-02.46.14:688][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.06.02-02.46.14:691][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Smoke01.uasset
+[2015.06.02-02.46.14:695][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.06.02-02.46.14:698][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.06.02-02.46.14:701][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.06.02-02.46.14:706][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.06.02-02.46.14:714][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.06.02-02.46.14:717][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.06.02-02.46.14:721][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.06.02-02.46.14:725][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Steam01.uasset
+[2015.06.02-02.46.14:729][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.06.02-02.46.14:732][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.06.02-02.46.14:735][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.06.02-02.46.14:739][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.06.02-02.46.14:742][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.06.02-02.46.14:746][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.06.02-02.46.14:749][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.06.02-02.46.14:753][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.06.02-02.46.14:757][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.06.02-02.46.14:760][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.06.02-02.46.14:763][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.06.02-02.46.14:767][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.06.02-02.46.14:770][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.06.02-02.46.14:774][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.06.02-02.46.14:777][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.06.02-02.46.14:781][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.06.02-02.46.14:785][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.06.02-02.46.14:788][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.06.02-02.46.14:829][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.06.02-02.46.14:833][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.06.02-02.46.14:838][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Maps/StarterMap.umap
+[2015.06.02-02.46.14:850][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.06.02-02.46.14:854][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.06.02-02.46.14:857][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.06.02-02.46.14:861][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.06.02-02.46.14:863][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.06.02-02.46.14:867][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.06.02-02.46.14:870][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.06.02-02.46.14:873][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.06.02-02.46.14:876][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.06.02-02.46.14:879][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.06.02-02.46.14:882][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.06.02-02.46.14:886][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.06.02-02.46.14:889][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.06.02-02.46.14:893][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.06.02-02.46.14:896][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.06.02-02.46.14:899][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.06.02-02.46.14:902][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.06.02-02.46.14:905][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Glass.uasset
+[2015.06.02-02.46.14:908][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.06.02-02.46.14:911][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.06.02-02.46.14:915][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.06.02-02.46.14:918][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.06.02-02.46.14:921][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.06.02-02.46.14:924][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.06.02-02.46.14:927][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.06.02-02.46.14:931][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.06.02-02.46.14:934][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.06.02-02.46.14:937][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.06.02-02.46.14:943][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.06.02-02.46.14:947][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.06.02-02.46.14:950][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.06.02-02.46.14:953][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.06.02-02.46.14:956][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.06.02-02.46.14:960][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.06.02-02.46.14:963][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.06.02-02.46.14:966][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.06.02-02.46.14:969][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.06.02-02.46.14:973][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.06.02-02.46.14:975][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.06.02-02.46.14:979][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.06.02-02.46.14:982][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.06.02-02.46.14:985][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.06.02-02.46.14:988][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.06.02-02.46.14:991][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.06.02-02.46.14:994][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.06.02-02.46.14:997][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.06.02-02.46.15:001][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.06.02-02.46.15:004][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.06.02-02.46.15:007][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.06.02-02.46.15:010][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.06.02-02.46.15:013][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.06.02-02.46.15:017][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.06.02-02.46.15:020][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.06.02-02.46.15:023][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.06.02-02.46.15:026][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.06.02-02.46.15:030][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/P_Fire.uasset
+[2015.06.02-02.46.15:033][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.06.02-02.46.15:036][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.06.02-02.46.15:039][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.06.02-02.46.15:043][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.06.02-02.46.15:046][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.06.02-02.46.15:049][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.06.02-02.46.15:053][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.06.02-02.46.15:056][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.06.02-02.46.15:059][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.06.02-02.46.15:062][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.06.02-02.46.15:066][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.06.02-02.46.15:069][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.06.02-02.46.15:072][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.06.02-02.46.15:075][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.06.02-02.46.15:078][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.06.02-02.46.15:081][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.06.02-02.46.15:084][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Bush.uasset
+[2015.06.02-02.46.15:087][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Chair.uasset
+[2015.06.02-02.46.15:091][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.06.02-02.46.15:094][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Couch.uasset
+[2015.06.02-02.46.15:097][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Door.uasset
+[2015.06.02-02.46.15:100][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.06.02-02.46.15:103][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.06.02-02.46.15:106][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.06.02-02.46.15:110][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.06.02-02.46.15:113][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.06.02-02.46.15:117][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.06.02-02.46.15:120][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.06.02-02.46.15:124][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Rock.uasset
+[2015.06.02-02.46.15:127][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.06.02-02.46.15:130][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.06.02-02.46.15:133][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_Statue.uasset
+[2015.06.02-02.46.15:136][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.06.02-02.46.15:139][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.06.02-02.46.15:142][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.06.02-02.46.15:145][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.06.02-02.46.15:148][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.06.02-02.46.15:151][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.06.02-02.46.15:154][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.06.02-02.46.15:158][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.06.02-02.46.15:161][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.06.02-02.46.15:164][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.06.02-02.46.15:167][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.06.02-02.46.15:169][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.06.02-02.46.15:173][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.06.02-02.46.15:178][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.06.02-02.46.15:180][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.06.02-02.46.15:183][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.06.02-02.46.15:186][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.06.02-02.46.15:189][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.06.02-02.46.15:192][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.06.02-02.46.15:194][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.06.02-02.46.15:198][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.06.02-02.46.15:201][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.06.02-02.46.15:203][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.06.02-02.46.15:206][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.06.02-02.46.15:209][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.06.02-02.46.15:211][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.06.02-02.46.15:213][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.06.02-02.46.15:216][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.06.02-02.46.15:218][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.06.02-02.46.15:220][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.06.02-02.46.15:223][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.06.02-02.46.15:226][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.06.02-02.46.15:232][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.06.02-02.46.15:240][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.06.02-02.46.15:246][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.06.02-02.46.15:253][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.06.02-02.46.15:261][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.06.02-02.46.15:268][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.06.02-02.46.15:277][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.06.02-02.46.15:284][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.06.02-02.46.15:297][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.06.02-02.46.15:303][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.06.02-02.46.15:311][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.06.02-02.46.15:317][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.06.02-02.46.15:324][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.06.02-02.46.15:327][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.06.02-02.46.15:330][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.06.02-02.46.15:334][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.06.02-02.46.15:336][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.06.02-02.46.15:340][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.06.02-02.46.15:343][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.06.02-02.46.15:347][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.06.02-02.46.15:350][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.06.02-02.46.15:352][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.06.02-02.46.15:356][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.06.02-02.46.15:362][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.06.02-02.46.15:364][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.06.02-02.46.15:367][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.06.02-02.46.15:375][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.06.02-02.46.15:378][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.06.02-02.46.15:382][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.06.02-02.46.15:395][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.06.02-02.46.15:400][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.06.02-02.46.15:414][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.06.02-02.46.15:421][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.06.02-02.46.15:428][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.06.02-02.46.15:434][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.06.02-02.46.15:442][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.06.02-02.46.15:452][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.06.02-02.46.15:454][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.06.02-02.46.15:457][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.06.02-02.46.15:462][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.06.02-02.46.15:464][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.06.02-02.46.15:467][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.06.02-02.46.15:469][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.06.02-02.46.15:473][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.06.02-02.46.15:483][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.06.02-02.46.15:486][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.06.02-02.46.15:496][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.06.02-02.46.15:503][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.06.02-02.46.15:514][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.06.02-02.46.15:523][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.06.02-02.46.15:532][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.06.02-02.46.15:538][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.06.02-02.46.15:547][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.06.02-02.46.15:549][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.06.02-02.46.15:553][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.06.02-02.46.15:556][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.06.02-02.46.15:560][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.06.02-02.46.15:563][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.06.02-02.46.15:566][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.06.02-02.46.15:570][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.06.02-02.46.15:574][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.06.02-02.46.15:578][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.06.02-02.46.15:582][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.06.02-02.46.15:585][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.06.02-02.46.15:588][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.06.02-02.46.15:596][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.06.02-02.46.15:599][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.06.02-02.46.15:603][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.06.02-02.46.15:607][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.06.02-02.46.15:614][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.06.02-02.46.15:617][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.06.02-02.46.15:620][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.06.02-02.46.15:626][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.06.02-02.46.15:629][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.06.02-02.46.15:631][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.06.02-02.46.15:635][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.06.02-02.46.15:637][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.06.02-02.46.15:642][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.06.02-02.46.15:645][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.06.02-02.46.15:648][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.06.02-02.46.15:651][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.06.02-02.46.15:654][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.06.02-02.46.15:658][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.06.02-02.46.15:662][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.06.02-02.46.15:665][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.06.02-02.46.15:667][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.06.02-02.46.15:670][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.06.02-02.46.15:674][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.06.02-02.46.15:684][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.06.02-02.46.15:695][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.06.02-02.46.15:704][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.06.02-02.46.15:713][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.06.02-02.46.15:724][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.06.02-02.46.15:731][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.06.02-02.46.15:734][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.06.02-02.46.15:738][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.06.02-02.46.15:743][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.06.02-02.46.15:752][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.06.02-02.46.15:760][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.06.02-02.46.15:770][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.06.02-02.46.15:772][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.06.02-02.46.15:776][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.06.02-02.46.15:784][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.06.02-02.46.15:791][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.06.02-02.46.15:796][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.06.02-02.46.15:798][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.06.02-02.46.15:801][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.06.02-02.46.15:804][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.06.02-02.46.15:808][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.06.02-02.46.15:813][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.06.02-02.46.15:816][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.06.02-02.46.15:820][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.06.02-02.46.15:831][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.06.02-02.46.15:841][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.06.02-02.46.15:845][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.06.02-02.46.15:848][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.06.02-02.46.15:855][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.06.02-02.46.15:864][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.06.02-02.46.15:868][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.06.02-02.46.15:873][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.06.02-02.46.15:879][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.06.02-02.46.15:882][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.06.02-02.46.15:886][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.06.02-02.46.15:892][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.06.02-02.46.15:903][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.06.02-02.46.15:907][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.06.02-02.46.15:912][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.06.02-02.46.15:915][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.06.02-02.46.15:919][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.06.02-02.46.15:925][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.06.02-02.46.15:928][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.06.02-02.46.15:931][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.06.02-02.46.15:934][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.06.02-02.46.15:937][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.06.02-02.46.15:941][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.06.02-02.46.15:944][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.06.02-02.46.15:947][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.06.02-02.46.15:950][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.06.02-02.46.15:953][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.06.02-02.46.15:957][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.06.02-02.46.15:960][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.06.02-02.46.15:963][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.06.02-02.46.15:971][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.06.02-02.46.15:980][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.06.02-02.46.15:983][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.06.02-02.46.15:986][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.06.02-02.46.15:988][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.06.02-02.46.15:996][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.06.02-02.46.16:004][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.06.02-02.46.16:013][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.06.02-02.46.16:024][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.06.02-02.46.16:033][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.06.02-02.46.16:041][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.06.02-02.46.16:046][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.06.02-02.46.16:052][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.06.02-02.46.16:055][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.06.02-02.46.16:060][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.06.02-02.46.16:064][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.06.02-02.46.16:067][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.06.02-02.46.16:070][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.06.02-02.46.16:074][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.06.02-02.46.16:079][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.06.02-02.46.16:082][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.06.02-02.46.16:086][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.06.02-02.46.16:091][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.06.02-02.46.16:095][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.06.02-02.46.16:097][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.06.02-02.46.16:099][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.06.02-02.46.16:103][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.06.02-02.46.16:107][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.06.02-02.46.16:110][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.06.02-02.46.16:113][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.06.02-02.46.16:116][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.06.02-02.46.16:119][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.06.02-02.46.16:123][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.06.02-02.46.16:129][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.06.02-02.46.16:131][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.06.02-02.46.16:134][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.06.02-02.46.16:136][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.06.02-02.46.16:138][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.06.02-02.46.16:142][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.06.02-02.46.16:147][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.06.02-02.46.16:149][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.06.02-02.46.16:152][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.06.02-02.46.16:155][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.06.02-02.46.16:157][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.06.02-02.46.16:160][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.06.02-02.46.16:166][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.06.02-02.46.16:172][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.06.02-02.46.16:178][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.06.02-02.46.16:184][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.06.02-02.46.16:191][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.06.02-02.46.16:199][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.06.02-02.46.16:203][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.06.02-02.46.16:211][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.06.02-02.46.16:216][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.06.02-02.46.16:456][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.06.02-02.46.17:098][  0]LogSavePackage: Save=382.504578ms
+[2015.06.02-02.46.17:098][  0]LogSavePackage: Moving '../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Saved/Floor_400x400B1C3C65F42E933E86CB090919A7E2D08.tmp' to '../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.06.02-02.46.17:101][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.06.02-02.46.17:106][  0]Cmd: MAP LOAD FILE="../../../../../../Users/winbookair/Documents/Unreal Projects/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.02-02.46.17:107][  0]LightingResults: New page: ライティングのビルド
+[2015.06.02-02.46.17:130][  0]MapCheck: New page: マップをチェック
+[2015.06.02-02.46.17:130][  0]LightingResults: New page: <何も選択されていません>
+[2015.06.02-02.46.17:157][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000994C6242C0
+[2015.06.02-02.46.18:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.02-02.46.18:591][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.02-02.46.18:592][  0]Cmd: MAP CHECKDEP
+[2015.06.02-02.46.18:592][  0]MapCheck: New page: TopDownExampleMap - 2015/06/02 20:46:18
+[2015.06.02-02.46.18:686][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 94.005ミリ秒かかりました。
+[2015.06.02-02.46.18:686][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.581
+[2015.06.02-02.46.18:832][  0]LogCollectionManager: Loaded 0 collections in 0.001964 seconds
+[2015.06.02-02.46.18:845][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 1696 classes and 261 folders.
+[2015.06.02-02.46.18:887][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2015.06.02-02.46.18:941][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.02-02.46.18:942][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.02-02.46.18:948][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2015.06.02-02.46.18:974][  0]LogLoad: Full Startup: 26.58 seconds (BP compile: 0.40 seconds)
+[2015.06.02-02.46.19:038][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP'
+[2015.06.02-02.46.19:315][  0]LogRenderer:Warning: Reallocating scene render targets to support 904x464 (Frame:3).
+[2015.06.02-02.46.21:565][ 10]LogAssetRegistry: Asset discovery search completed in 18.6704 seconds
+[2015.06.02-02.46.26:040][106]Cmd: QUIT_EDITOR
+[2015.06.02-02.46.26:408][106]LogExit: Preparing to exit.
+[2015.06.02-02.46.26:994][106]LogExit: Editor shut down
+[2015.06.02-02.46.26:995][106]LogExit: Transaction tracking system shut down
+[2015.06.02-02.46.26:995][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009941EDA3E0
+[2015.06.02-02.46.26:996][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099446C2980
+[2015.06.02-02.46.26:996][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009906BB9C60
+[2015.06.02-02.46.27:036][106]LogExit: Object subsystem successfully closed.
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.06.02-02.46.27:081][106]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.06.02-02.46.27:082][106]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.06.02-02.46.27:109][106]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.06.02-02.46.27:110][106]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.06.02-02.46.27:214][106]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.06.02-02.46.27:214][106]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.06.02-02.46.27:214][106]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.06.02-02.46.27:215][106]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.06.02-02.46.27:216][106]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.06.02-02.46.27:216][106]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.06.02-02.46.27:216][106]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.06.02-02.46.27:216][106]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.06.02-02.46.27:390][106]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.06.02-02.46.27:391][106]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.06.02-02.46.27:391][106]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.06.02-02.46.27:391][106]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.06.02-02.46.27:391][106]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.06.02-02.46.27:392][106]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.02-02.46.27:394][106]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.02-02.46.27:394][106]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.02-02.46.27:394][106]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.02-02.46.27:495][106]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.02-02.46.27:495][106]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.02-02.46.27:501][106]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.02-02.46.27:501][106]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.02-02.46.27:502][106]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.02-02.46.27:503][106]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.02-02.46.27:503][106]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.02-02.46.27:515][106]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.02-02.46.27:516][106]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.02-02.46.27:699][106]LogDerivedDataCache: Shutdown
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.02-02.46.27:699][106]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.02-02.46.27:700][106]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.02-02.46.27:703][106]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.02-02.46.27:704][106]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.02-02.46.27:705][106]LogExit: Exiting.
+[2015.06.02-02.46.27:763][106]Log file closed, 06/02/15 11:46:27
